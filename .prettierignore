@@ -1,0 +1,17 @@
+.DS_Store
+.nyc_output/
+.cache/
+.turbo/
+.snapshots/
+.github/
+node_modules/
+coverage/
+dist/
+build/
+storybook-static/
+
+.env
+.env.*
+!.env.example
+*.yaml
+*.tsbuildinfo

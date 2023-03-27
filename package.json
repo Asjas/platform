@@ -1,0 +1,15 @@
+{
+  "workspaces": [
+    "apps/**",
+    "packages/**",
+    "marketing-pages/**"
+  ],
+  "scripts": {
+    "prettier": "prettier --cache \"**/**/*.+(js|mjs|ts|tsx|md|mdx)\"",
+    "format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different"
+  },
+  "devDependencies": {
+    "prettier": "2.8.7"
+  }
+}
