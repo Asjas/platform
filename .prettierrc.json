@@ -1,5 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/prettierrc",
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
   "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,
@@ -14,5 +18,22 @@
   "singleQuote": false,
   "tabWidth": 2,
   "trailingComma": "all",
-  "useTabs": false
+  "useTabs": false,
+  "importOrder": [
+    "^(fastify$)|^(@fastify/(.*)$)|^(fastify-(.*)$)",
+    "^(vitest$)|^(vitest/(.*)$)",
+    "<THIRD_PARTY_MODULES>",
+    "^@/ui/(.*)$",
+    "^@/components/(.*)$",
+    "^@/styles/(.*)$",
+    "^types$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderBuiltinModulesToTop": true,
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderMergeDuplicateImports": true,
+  "importOrderCombineTypeAndValueImports": true,
+  "tailwindConfig": "./packages/tailwind/tailwind.config.js"
 }
