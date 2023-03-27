@@ -4,7 +4,6 @@
   "assignees": ["asjas@outlook.com"],
   "dependencyDashboard": false,
   "extends": ["config:base"],
-  "labels": ["renovate"],
   "rangeStrategy": "update-lockfile",
   "reviewers": ["asjas@outlook.com"],
   "timezone": "Africa/Johannesburg",
