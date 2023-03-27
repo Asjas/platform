@@ -5,11 +5,16 @@
     "marketing-pages/**"
   ],
   "scripts": {
-    "prettier": "prettier --cache \"**/**/*.+(js|mjs|ts|tsx|md|mdx)\"",
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "test": "turbo run test --parallel",
+    "clean": "turbo run clean --parallel",
+    "prettier": "prettier --cache \"**/**/*.+(js|mjs|json|ts|tsx|md|mdx)\"",
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different"
   },
   "devDependencies": {
-    "prettier": "2.8.7"
+    "prettier": "2.8.7",
+    "turbo": "1.8.5"
   }
 }
