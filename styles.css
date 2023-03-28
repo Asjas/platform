@@ -1,0 +1,129 @@
+.drag {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+*,
+a,
+button {
+  cursor: default;
+  user-select: none;
+}
+
+body {
+  line-height: 1.5;
+}
+
+html {
+  font-size: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none;
+  outline: #000 dotted 2px;
+  outline-offset: 0.05em;
+}
+
+ul > li:not(:last-child)::after {
+  content: ",";
+}
+
+.no-svg .icon-only::after {
+  content: attr(aria-label);
+}
+
+.slider {
+  max-height: 200px;
+  overflow-y: hidden;
+  width: 300px;
+}
+
+.slider:hover {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.calendar {
+  table-layout: fixed;
+}
+
+a[href^="http"]:empty::before {
+  content: attr(href);
+}
+
+a[href]:not([class]) {
+  color: #008000;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  font-family: sans-serif;
+  font-weight: 300;
+  height: auto;
+  line-height: 2;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+img::before {
+  content: "We're sorry, the image below is broken :(";
+  display: block;
+  margin-bottom: 10px;
+}
+
+img::after {
+  content: "(url: " attr(src) ")";
+  display: block;
+  font-size: 12px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  font-size: 16px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+:empty {
+  display: none;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.drag {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}

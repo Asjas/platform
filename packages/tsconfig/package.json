@@ -1,0 +1,9 @@
+{
+  "name": "@packages/tsconfig",
+  "files": [
+    "base.json",
+    "server.json",
+    "ui.json",
+    "web.json"
+  ]
+}

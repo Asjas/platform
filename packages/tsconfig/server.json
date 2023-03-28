@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Server Config",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "incremental": true,
+    "lib": ["ESNEXT"],
+    "module": "ES2022",
+    "target": "ES2017"
+  }
+}
