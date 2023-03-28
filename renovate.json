@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "addLabels": ["renovatebot"],
+  "addLabels": ["renovate-bot"],
   "assignees": ["asjas@outlook.com"],
   "dependencyDashboard": false,
   "extends": ["config:base"],
