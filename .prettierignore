@@ -3,7 +3,6 @@
 .cache/
 .turbo/
 .snapshots/
-.github/
 node_modules/
 coverage/
 dist/
@@ -13,5 +12,4 @@ storybook-static/
 .env
 .env.*
 !.env.example
-*.yaml
 *.tsbuildinfo

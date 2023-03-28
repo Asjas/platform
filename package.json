@@ -9,7 +9,7 @@
     "dev": "turbo run dev --parallel",
     "test": "turbo run test --parallel",
     "clean": "turbo run clean --parallel",
-    "prettier": "prettier --cache \"**/**/*.+(js|mjs|json|ts|tsx|md|mdx)\"",
+    "prettier": "prettier --cache \"**/**/*.+(js|json|ts|tsx|md|mdx|yml|yaml)\"",
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different"
   },
