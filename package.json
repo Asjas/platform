@@ -1,9 +1,4 @@
 {
-  "workspaces": [
-    "apps/**",
-    "packages/**",
-    "marketing-pages/**"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
