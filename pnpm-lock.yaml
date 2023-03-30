@@ -21,16 +21,16 @@ importers:
     devDependencies:
       '@tailwindcss/aspect-ratio':
         specifier: 0.4.2
-        version: 0.4.2(tailwindcss@3.3.0)
+        version: 0.4.2(tailwindcss@3.3.1)
       '@tailwindcss/forms':
         specifier: 0.5.3
-        version: 0.5.3(tailwindcss@3.3.0)
+        version: 0.5.3(tailwindcss@3.3.1)
       '@tailwindcss/typography':
         specifier: 0.5.9
-        version: 0.5.9(tailwindcss@3.3.0)
+        version: 0.5.9(tailwindcss@3.3.1)
       tailwindcss:
-        specifier: 3.3.0
-        version: 3.3.0(postcss@8.4.21)
+        specifier: 3.3.1
+        version: 3.3.1(postcss@8.4.21)
 
   packages/tsconfig: {}
 
@@ -320,24 +320,24 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.3.0):
+  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.3.1):
     resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 3.3.0(postcss@8.4.21)
+      tailwindcss: 3.3.1(postcss@8.4.21)
     dev: true
 
-  /@tailwindcss/forms@0.5.3(tailwindcss@3.3.0):
+  /@tailwindcss/forms@0.5.3(tailwindcss@3.3.1):
     resolution: {integrity: sha512-y5mb86JUoiUgBjY/o6FJSFZSEttfb3Q5gllE4xoKjAAD+vBrnIhE4dViwUuow3va8mpH4s9jyUbUbrRGoRdc2Q==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.3.0(postcss@8.4.21)
+      tailwindcss: 3.3.1(postcss@8.4.21)
     dev: true
 
-  /@tailwindcss/typography@0.5.9(tailwindcss@3.3.0):
+  /@tailwindcss/typography@0.5.9(tailwindcss@3.3.1):
     resolution: {integrity: sha512-t8Sg3DyynFysV9f4JDOVISGsjazNb48AeIYQwcL+Bsq5uf4RYL75C1giZ43KISjeDGBaTN3Kxh7Xj/vRSMJUUg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -346,7 +346,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.3.0(postcss@8.4.21)
+      tailwindcss: 3.3.1(postcss@8.4.21)
     dev: true
 
   /ansi-styles@3.2.1:
@@ -1006,8 +1006,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss@3.3.0(postcss@8.4.21):
-    resolution: {integrity: sha512-hOXlFx+YcklJ8kXiCAfk/FMyr4Pm9ck477G0m/us2344Vuj355IpoEDB5UmGAsSpTBmr+4ZhjzW04JuFXkb/fw==}
+  /tailwindcss@3.3.1(postcss@8.4.21):
+    resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
